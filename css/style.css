@@ -432,6 +432,8 @@ ul,li{
 }
 .header-top .social-links li.phone > i { 
 	margin-right: 8px;
+	font-size: 25px;
+    vertical-align: bottom;
 }
 .header-top .social-links li:first-child{
 	width: auto !important;
@@ -442,7 +444,7 @@ ul,li{
 	margin-right: 0px;
 }
 .header-top .social-links li a{
-	color: #c3edff;
+	color: #ffffff;
 }
 .header-top .social-links li:hover{
 	background-color: #37b6ab;
@@ -2086,4 +2088,5 @@ ul,li{
 .footer-bottom .social-links li i:hover{
 	color: #48bef1;
 }
+
 
