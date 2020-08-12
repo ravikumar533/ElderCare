@@ -634,7 +634,6 @@ ul,li{
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
-	background: rgba(16, 21, 22, 0.6);
 	transition:all 500ms ease;
 	z-index:1;
 }
