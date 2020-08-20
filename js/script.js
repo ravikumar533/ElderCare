@@ -38,7 +38,9 @@
 		
 		//Disable dropdown parent link
 		$('.navigation li.dropdown > a').on('click', function(e) {
-			e.preventDefault();
+			if(!$(this).attr('href')) {
+				e.preventDefault();
+			}
 		});
 	}
 
