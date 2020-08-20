@@ -88,7 +88,7 @@
 
 
 body {
-	font-size:15px;
+	font-size:16px;
 	color:#777777;
 	line-height:1.8em;
 	font-weight:400;
@@ -115,6 +115,7 @@ h1,h2,h3,h4,h5,h6 {
 	position:relative;
 	font-family: 'Roboto Slab', serif;
 	margin:0px;
+	color: #ffffff;
 }
 input,button,select,textarea{
 	font-family: 'Roboto', sans-serif;

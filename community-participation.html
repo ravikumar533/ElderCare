@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Elder Care Template | Contact page</title>
+    <title>Elder Care Template | services page</title>
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/revolution-slider.css" rel="stylesheet">
@@ -20,6 +20,11 @@
 
 <body>
     <div class="page-wrapper">
+
+
+        <!-- .preloader -->
+        <div class="preloader"></div>
+        <!-- /.preloader -->
 
 
         <!-- .preloader -->
@@ -61,17 +66,17 @@
                 </div>
                 <nav id="bs-navbar" class="collapse navbar-collapse">
                     <ul class="nav navigation navbar-nav">
-                        <li class="current"><a href="index.html">AboutUs</a></li>
-                        <li class="dropdown"><a href="service.html">Disability Services</a>
+                        <li class="dropdown"><a href="index.html">AboutUs</a></li>
+                        <li class="dropdown current"><a href="service.html">Disability Services</a>
                             <ul>
                                 <li><a href="in-home-support.html">In Home Support</a></li>
-                                <li><a href="community-participation.html">Community Participation</a></li>
-                                <li><a href="supported-holidays.html">Supported Holidays</a></li>
+                                <li><a href="service-details.html">Community Participation</a></li>
+                                <li><a href="service-details.html">Supported Holidays</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="aged-care-services-at-home.html">Age Care Services at Home</a>
+                        <li class="dropdown"><a href="gellary.html">Age Care Services at Home</a>
                         </li>
-                        <li class="dropdown"><a href="post-acute-care-services.html">Post Acute Care Services</a>
+                        <li class="dropdown"><a href="blog.html">Post Acute Care Services</a>
                         </li>
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
@@ -81,36 +86,69 @@
         </header>
         <!--End Main Header -->
 
-        <!--contact-section-->
-        <section class="contact-us">
+
+        <!--Main Slider-->
+        <section class="main-slider">
+            <div class="tp-banner-container">
+                <div class="tp-banner">
+                    <ul>
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000"
+                            data-thumb="images/main-slider/1.jpg" data-saveperformance="off"
+                            data-title="Awesome Title Here">
+                            <img src="images/main-slider/1.jpg" alt="" data-bgposition="center top" data-bgfit="cover"
+                                data-bgrepeat="no-repeat">
+                            <div class="tp-caption sft sfb tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
+                                data-voffset="-68" data-speed="1500" data-start="0" data-easing="easeOutExpo"
+                                data-splitin="none" data-splitout="none" data-elementdelay="0.01"
+                                data-endelementdelay="0.3" data-endspeed="1200" data-endeasing="Power4.easeIn">
+                                <h3>Community Participation</h3>
+                                <h2>connect with your community</h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End Main Slider-->
+
+
+        <!--service-section-->
+        <section class="blog-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="section-title">
-                            <h5>Contact Info</h5>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <p>
+                            At Meraki Lifecare, we believe “Man is a social animal; he cannot live without the company
+                            of others.” We support and empower people with disabilities to connect with their community
+                            and participate in recreational activities of their personal hobbies and interests. Our
+                            staff will assist you in being able to enjoy a wide range of social activities including:
+                            ● Bowling
+                            ● Swimming
+                            ● Movies
+                            ● Horse-riding
+                            ● Sailing
+                            ● Community outing/picnics
+                            ● Building and maintaining your community relationships and friendships.
+                            ● Engaging in social relations
+
+                            As an individual’s needs vary from person to person and time to time, we support any
+                            recreational activities that an individual may request”. Choice is yours we will support
+                            you”
+
+
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="image-box">
+                            <figure>
+                                <img src="images/resource/7.png" alt="">
+                            </figure>
                         </div>
-                        <ul class="contact-list">
-                            <li class="item">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <h5>Address</h5>
-                                <p>16/14 street, Suburb <br>Qld, Australia.</p>
-                            </li>
-                            <li class="item">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                <h5>Phone</h5>
-                                <p>+61 123 123 123 <br>+61 001 001 001</p>
-                            </li>
-                            <li class="item">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                <h5>Email</h5>
-                                <p>info@example.com <br>info@Charity.com </p>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!--End contact-section-->
+        <!--End service-section-->
 
 
         <!--main-footer-->
@@ -232,13 +270,6 @@
     <script src="js/jquery.appear.js"></script>
     <script src="js/jquery.countTo.js"></script>
     <script src="js/wow.js"></script>
-
-    <!-- gmap helper -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
-    <!--gmap script-->
-    <script src="js/gmaps.js"></script>
-    <script src="js/map-helper.js"></script>
-
     <script src="js/script.js"></script>
 </body>
 
