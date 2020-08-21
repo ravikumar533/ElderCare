@@ -955,13 +955,18 @@ ul,li{
 
 ***/
 
-.team-section{
+.team-section {
 	position: relative;
+	padding-top: 90px;
 	padding-bottom: 50px;
+	background-image: url('/images/resource/bg-7.jpg');
+	position: relative;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
 }
 .team-section .section-title{
-  padding: 37px 0px;
-  background: #f5efec;
+	padding-bottom: 37px;
 }
 .team-section .image-holder{
 	position: relative;
@@ -1054,6 +1059,16 @@ ul,li{
 	background: #ffffff;
 	transition: all 500ms ease;
 }
+	.team-section .list-group {
+		color: #fff !important;
+		font-size: 20px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+		.team-section .list-group li {
+			padding: 5px 0;
+		}
 
 /*** 
 
@@ -1953,7 +1968,22 @@ ul,li{
     font-weight: 400;
     color: #848484;
 }
-
+/** Bullet list **/
+.bullet-list {
+	margin: 1em 0;
+}
+	.bullet-list h5 {
+		font-size: 16px;
+		font-weight: 400;
+		color: #435460;
+	}
+.bullet-list ul {
+	margin: 1em;
+}
+.bullet-list span {
+	font-size: 1.5em;
+	margin-right: 10px;
+}
 
 
 /*** 
